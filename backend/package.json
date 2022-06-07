@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dataServer.js",
+  "scripts": {
+    "start": "nodemon dataServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "4.5",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16"
+  }
+}
